@@ -77,13 +77,33 @@ And this one for n=14:
     :type n: int
     """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # COMPLETED: 2. Implement and test this function.
     #          Some tests are already written for you (above).
     ####################################################################
     # IMPORTANT: In your final solution for this problem,
     #   you must NOT use string multiplication.
     ####################################################################
 
+    for i in range(n):
+        stars = ''
+        for j in range(n - i):
+            stars = stars + ' '
+        value = 0
+        for k in range(i + 1):
+            value = value + 1
+            if value >= 10:
+                value = 0
+            stars = stars + str(value)
+        stars = stars + ' '
+        for m in range(i + 1):
+            stars = stars + '*'
+        stars = stars + ' '
+        for l in range(n - i):
+            value = (n - i) - l
+            if value >= 10:
+                value = 0
+            stars = stars + str(value)
+        print(stars)
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
