@@ -2,8 +2,8 @@
 Exam 3, problem 4.
 
 Authors: David Mutchler, Dave Fisher, Matt Boutell, their colleagues,
-         and PUT_YOUR_NAME_HERE.  October, 2018.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Jasmine Scott.  October, 2018.
+"""  # COMPLETED: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
